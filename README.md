@@ -2,7 +2,7 @@
 
 <h2>👨‍💻 Cybersecuirty/It Projects:</h2>
 
-  - [Cyber Home Lab ](https://github.com/joshmadakor1/Algorithms-Practice)
+  - [Cyber Home Lab ](https://github.com/adpickle34/Cyber-Home-Lab-Azure-Honey-pot)
 
 <h2>Rutgers University </h2>
 
