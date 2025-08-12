@@ -2,7 +2,6 @@
 
 <h2>👨‍💻 Cybersecuirty/It Projects:</h2>
 
-- <b>Data Structures and Algorithms Practice (AlgoExpert)</b>
   - [Cyber Home Lab ](https://github.com/joshmadakor1/Algorithms-Practice)
 
 <h2>Rutgers University </h2>
