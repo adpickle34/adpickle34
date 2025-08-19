@@ -4,6 +4,8 @@
 
   - [Cyber Home Lab ](https://github.com/adpickle34/Cyber-Home-Lab-Azure-Honey-pot)
   - [Active Directory Home Lab](https://github.com/adpickle34/ActiveDirectoryLab)
+  - [Vulnerability Management Lab]([https://github.com/adpickle34/ActiveDirectoryLab](https://github.com/adpickle34/Vulnerability-Management-Lab-with-Tenable))
+
 
 <h2>Rutgers University </h2>
 
