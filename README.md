@@ -3,9 +3,9 @@
 <h2>
 I am an IT graduate from Rutgers University. Security-focused and hands-on. I build labs to learn by doing. From deploying Azure honeypots and analyzing live attack traffic to setting up Active Directory environments for attack/defense practice, I prefer real experience over theory. Currently pursuing entry-level SOC, cloud security, and vulnerability management roles. CompTIA Security+ certified and always building something new.
 
-🔭 Current focus: Threat detection, SIEM, and cloud security
-🛠️ Tools: Azure, Microsoft Sentinel, Nessus, Wireshark, Active Directory
-📫 Open to opportunities — let's connect.
+Current focus: Threat detection, SIEM, and cloud security
+Tools: Azure, Microsoft Sentinel, Nessus, Wireshark, Active Directory
+ Open to opportunities — let's connect.
 
 ## Certifications
 
