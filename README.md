@@ -1,4 +1,4 @@
-<h1>Hi, I'm Tamur!<h1>
+Hi, I'm Tamur!
 
 <p>
 IT graduate from Rutgers University. Security-focused and hands-on. 
