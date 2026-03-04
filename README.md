@@ -1,6 +1,6 @@
-<h1>Hi, I'm Tamur! 
+<h1>Hi, I'm Tamur!<h1>
 
-<h2>
+<p>
 I am an IT graduate from Rutgers University. Security-focused and hands-on. I build labs to learn by doing. From deploying Azure honeypots and analyzing live attack traffic to setting up Active Directory environments for attack/defense practice, I prefer real experience over theory. Currently pursuing entry-level SOC, cloud security, and vulnerability management roles. CompTIA Security+ certified and always building something new.
 
 Current focus: Threat detection, SIEM, and cloud security
@@ -10,7 +10,7 @@ Tools: Azure, Microsoft Sentinel, Wireshark, Active Directory
  
  
  Open to opportunities — let's connect.
-
+</p>
 ## Certifications
 
 [![CompTIA Security+](https://images.credly.com/size/110x110/images/80d8a06a-c384-42bf-ad36-db81bce5adce/blob)](https://www.credly.com/badges/a5cbc54f-9555-449a-8869-bb844a253209/public_url)
@@ -38,17 +38,3 @@ Tools: Azure, Microsoft Sentinel, Wireshark, Active Directory
 [instagram]: https://www.instagram.com/tja.tamur/
 [linkedin]: https://www.linkedin.com/in/tamur-athir-b9a601255/
 
-<!--
-**joshmadakor1/joshmadakor1** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
