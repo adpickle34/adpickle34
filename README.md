@@ -1,5 +1,15 @@
 <h1>Hi, I'm Tamur! 
 
+I am an IT graduate from Rutgers University. Security-focused and hands-on — I build labs to learn by doing. From deploying Azure honeypots and analyzing live attack traffic to setting up Active Directory environments for attack/defense practice, I prefer real experience over theory. Currently pursuing entry-level SOC, cloud security, and vulnerability management roles. CompTIA Security+ certified and always building something new.
+🔭 Current focus: Threat detection, SIEM, and cloud security
+🛠️ Tools: Azure, Microsoft Sentinel, Nessus, Wireshark, Active Directory
+📫 Open to opportunities — let's connect.
+
+## Certifications
+
+[![CompTIA Security+](https://images.credly.com/size/110x110/images/80d8a06a-c384-42bf-ad36-db81bce5adce/blob)](https://www.credly.com/badges/a5cbc54f-9555-449a-8869-bb844a253209/public_url)
+[![Microsoft Certified: Azure Fundamentals](https://images.credly.com/size/110x110/images/99506d65-0f47-4ecd-8c9e-b6fed1c2152e/converted20251225-32-7q03k6.png)](https://learn.microsoft.com/api/credentials/share/en-us/AJThomas-1149/E07E66E89632B3FB?sharingId=A632B100136F6E4C)
+
 <h2>👨‍💻 Cybersecuirty/It Projects:</h2>
 
   - [Cyber Home Lab ](https://github.com/adpickle34/Cyber-Home-Lab-Azure-Honey-pot)
