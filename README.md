@@ -5,6 +5,8 @@ I am an IT graduate from Rutgers University. Security-focused and hands-on. I bu
 
 Current focus: Threat detection, SIEM, and cloud security
 Tools: Azure, Microsoft Sentinel, Nessus, Wireshark, Active Directory
+ 
+ 
  Open to opportunities — let's connect.
 
 ## Certifications
