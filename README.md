@@ -8,7 +8,8 @@ Current focus: m  Threat detection, SIEM, and cloud security
 Tools: Azure, Microsoft Sentinel, Wireshark, Active Directory
  
  
- Open to opportunities — let's connect. <p>
+ Open to opportunities — let's connect. </p>
+
  
 ## Certifications
 
