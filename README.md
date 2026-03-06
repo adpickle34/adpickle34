@@ -18,7 +18,7 @@ Tools: Azure, Microsoft Sentinel, Wireshark, Active Directory
  
 ## Certifications
 
-[![CompTIA Security+](https://images.credly.com/size/110x110/images/80d8a06a-c384-42bf-ad36-db81bce5adce/blob)]([https://www.credly.com/badges/a5cbc54f-9555-449a-8869-bb844a253209/public_url](https://www.credly.com/badges/bbac8d46-7a50-496a-8de6-145a93bcd719))
+[![CompTIA Security+](https://images.credly.com/size/110x110/images/80d8a06a-c384-42bf-ad36-db81bce5adce/blob)](https://www.credly.com/badges/bbac8d46-7a50-496a-8de6-145a93bcd719)
 
 <h2>👨‍💻 Cybersecuirty/It Projects:</h2>
 
