@@ -20,8 +20,9 @@ Tools: Azure, Microsoft Sentinel, Wireshark, Active Directory
 
 [![CompTIA Security+](https://images.credly.com/size/110x110/images/80d8a06a-c384-42bf-ad36-db81bce5adce/blob)](https://www.credly.com/badges/bbac8d46-7a50-496a-8de6-145a93bcd719)
 
-<h2>👨‍💻 Cybersecuirty/It Projects:</h2>
+<h2>👨‍💻 Cybersecuirty/Cloud Projects:</h2>
 
+  -  [How to Create a Website With Cloud Storage](https://github.com/adpickle34/azure-static-website-sop) 
   -  [Splunk SIEM & Log Analysis](https://github.com/adpickle34/splunk-siem-homelab)
   -  [Cyber Home Lab (Azure Honey pot)](https://github.com/adpickle34/Cyber-Home-Lab-Azure-Honey-pot)
   - [NIST Compliance](https://github.com/adpickle34/NIST-Compliance).
