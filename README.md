@@ -22,7 +22,8 @@ Tools: Azure, Microsoft Sentinel, Wireshark, Active Directory
 
 <h2>👨‍💻 Cybersecuirty/It Projects:</h2>
 
-  - [Cyber Home Lab (Azure Honey pot)](https://github.com/adpickle34/Cyber-Home-Lab-Azure-Honey-pot)
+  -  [Splunk SIEM & Log Analysis](https://github.com/adpickle34/splunk-siem-homelab)
+  -  [Cyber Home Lab (Azure Honey pot)](https://github.com/adpickle34/Cyber-Home-Lab-Azure-Honey-pot)
   - [NIST Compliance](https://github.com/adpickle34/NIST-Compliance).
   - [Incident Response: Phishing via Fake Software Update](https://github.com/adpickle34/Phishing-Software-Update)
   - [Vulnerability Management Lab](https://github.com/adpickle34/Vulnerability-Management-Lab-with-Tenable)
