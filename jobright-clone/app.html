@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>JobRight — Recommended Jobs</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body class="app">
+
+  <!-- ============ SIDEBAR ============ -->
+  <aside class="sidebar">
+    <a class="logo" href="index.html"><span class="logo-mark">▲</span> JOBRIGHT</a>
+
+    <nav class="side-nav">
+      <button class="side-link active" data-view="recommended">🎯 <span>Recommended</span></button>
+      <button class="side-link" data-view="liked">❤️ <span>Liked</span> <em class="count" id="liked-count">0</em></button>
+      <button class="side-link" data-view="applied">📬 <span>Applied</span> <em class="count" id="applied-count">0</em></button>
+      <button class="side-link" data-view="orion">🧭 <span>Orion Copilot</span></button>
+      <button class="side-link" data-view="profile">👤 <span>My Profile</span></button>
+    </nav>
+
+    <div class="side-footer">
+      <div class="turbo-card">
+        <strong>⚡ JobRight Turbo</strong>
+        <p>Unlimited Orion + tailored resumes</p>
+        <button class="btn btn-primary btn-sm btn-block">Upgrade</button>
+      </div>
+      <div class="user-chip" id="user-chip">
+        <div class="avatar" id="user-avatar">?</div>
+        <div>
+          <strong id="user-name">Guest</strong>
+          <span id="user-title">Set up your profile</span>
+        </div>
+      </div>
+    </div>
+  </aside>
+
+  <!-- ============ MAIN ============ -->
+  <main class="main">
+
+    <!-- ===== JOBS VIEW (recommended / liked / applied) ===== -->
+    <section class="view" id="view-jobs">
+      <header class="topbar">
+        <div>
+          <h1 id="view-title">Recommended for you</h1>
+          <p class="topbar-sub" id="view-sub">Ranked by match score against your profile · refreshed daily</p>
+        </div>
+      </header>
+
+      <div class="filter-bar">
+        <input type="search" id="filter-search" placeholder="Search title, company, or skill…" />
+        <select id="filter-level">
+          <option value="">All levels</option>
+          <option value="Entry">Entry level</option>
+          <option value="Mid">Mid level</option>
+          <option value="Senior">Senior</option>
+        </select>
+        <select id="filter-workmode">
+          <option value="">Any work mode</option>
+          <option value="Remote">Remote</option>
+          <option value="Hybrid">Hybrid</option>
+          <option value="Onsite">Onsite</option>
+        </select>
+        <label class="toggle"><input type="checkbox" id="filter-h1b" /> H1B sponsor</label>
+        <select id="filter-minmatch">
+          <option value="0">Any match</option>
+          <option value="70">70%+ match</option>
+          <option value="85">85%+ match</option>
+        </select>
+      </div>
+
+      <div class="job-list" id="job-list"><!-- job cards injected here --></div>
+      <div class="empty-state hidden" id="empty-state">
+        <div class="empty-icon">🔍</div>
+        <h3 id="empty-title">No jobs here yet</h3>
+        <p id="empty-sub">Try loosening your filters.</p>
+      </div>
+    </section>
+
+    <!-- ===== ORION VIEW ===== -->
+    <section class="view hidden" id="view-orion">
+      <header class="topbar">
+        <div>
+          <h1>🧭 Orion — AI Career Copilot</h1>
+          <p class="topbar-sub">Ask about resumes, interviews, salaries, or any of your matched jobs</p>
+        </div>
+      </header>
+      <div class="orion-wrap">
+        <div class="chat-log" id="chat-log"></div>
+        <div class="chat-suggestions" id="chat-suggestions">
+          <button class="chip" data-q="How can I improve my resume?">Improve my resume</button>
+          <button class="chip" data-q="How should I prepare for interviews?">Interview prep</button>
+          <button class="chip" data-q="How do I negotiate salary?">Salary negotiation</button>
+          <button class="chip" data-q="Why are these jobs matched to me?">Why these matches?</button>
+        </div>
+        <form class="chat-input" id="chat-form">
+          <input type="text" id="chat-text" placeholder="Ask Orion anything about your job search…" autocomplete="off" />
+          <button class="btn btn-primary" type="submit">Send</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- ===== PROFILE VIEW ===== -->
+    <section class="view hidden" id="view-profile">
+      <header class="topbar">
+        <div>
+          <h1>👤 My Profile</h1>
+          <p class="topbar-sub">Your matches are scored against this profile — keep it sharp</p>
+        </div>
+      </header>
+
+      <form class="profile-form" id="profile-form">
+        <div class="form-row">
+          <label>Full name
+            <input type="text" id="p-name" placeholder="e.g. Tamur Athir" />
+          </label>
+          <label>Target title
+            <input type="text" id="p-title" placeholder="e.g. SOC Analyst" />
+          </label>
+        </div>
+
+        <div class="form-row">
+          <label>Years of experience
+            <select id="p-years">
+              <option value="0">0 (new grad)</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="5">5+</option>
+              <option value="8">8+</option>
+            </select>
+          </label>
+          <label>Preferred work mode
+            <select id="p-workmode">
+              <option value="">No preference</option>
+              <option value="Remote">Remote</option>
+              <option value="Hybrid">Hybrid</option>
+              <option value="Onsite">Onsite</option>
+            </select>
+          </label>
+          <label class="toggle-lg"><input type="checkbox" id="p-h1b" /> I need H1B sponsorship</label>
+        </div>
+
+        <label>Skills <span class="hint">(click to toggle — these drive your match scores)</span></label>
+        <div class="skill-bank" id="skill-bank"><!-- skill chips injected --></div>
+
+        <label>Add a custom skill</label>
+        <div class="form-inline">
+          <input type="text" id="p-custom-skill" placeholder="e.g. Nessus" />
+          <button type="button" class="btn btn-outline" id="add-skill-btn">Add</button>
+        </div>
+
+        <button type="submit" class="btn btn-primary btn-lg">Save &amp; recalculate matches</button>
+      </form>
+    </section>
+  </main>
+
+  <!-- ============ JOB DETAIL DRAWER ============ -->
+  <div class="drawer-overlay hidden" id="drawer-overlay"></div>
+  <aside class="drawer hidden" id="job-drawer"><!-- detail injected --></aside>
+
+  <!-- ============ ONBOARDING MODAL ============ -->
+  <div class="modal-overlay hidden" id="onboarding-modal">
+    <div class="modal">
+      <h2>Welcome to JobRight 👋</h2>
+      <p>Tell us a little about yourself and we'll match you with jobs instantly. You can refine everything later in <strong>My Profile</strong>.</p>
+      <label>Your name
+        <input type="text" id="ob-name" placeholder="First name" />
+      </label>
+      <label>What role are you looking for?
+        <input type="text" id="ob-title" placeholder="e.g. SOC Analyst, Software Engineer" />
+      </label>
+      <label>Years of experience
+        <select id="ob-years">
+          <option value="0">0 (new grad)</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="5">5+</option>
+        </select>
+      </label>
+      <div class="modal-actions">
+        <button class="btn btn-ghost" id="ob-skip">Skip for now</button>
+        <button class="btn btn-primary" id="ob-save">Show my matches →</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="assets/js/data.js"></script>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>
